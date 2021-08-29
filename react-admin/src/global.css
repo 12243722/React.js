@@ -1,0 +1,7 @@
+body {
+  background: #f0f2f5;
+}
+
+div.site-layout-background {
+  background: transparent !important;
+}

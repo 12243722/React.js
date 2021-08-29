@@ -1,0 +1,1 @@
+export const GET_RATED_LIST = '/rated/list';

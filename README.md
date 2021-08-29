@@ -593,6 +593,7 @@ ReactDOM.render(
 ### (2) props.children
 
 我们知道使用组件的时候，可以嵌套。要在自定义组件的使用嵌套结构，就需要使用 `props.children` 。在实际的工作当中，我们几乎每天都需要用这种方式来编写组件。
++
 
 ```jsx
 import React, { Component, Fragment } from 'react'
@@ -1456,7 +1457,7 @@ React中组件也有生命周期，也就是说也有很多钩子函数供我们
 
 ## 3、卸载阶段
 
-1. componentWillUnmount()
+1. componentWillUnmount()+++
 
 
 
@@ -2016,7 +2017,7 @@ export default Page;
 
 **MVC只是看起来很美**
 
-MVC框架的数据流很理想，请求先到Controller, 由Controller调用Model中的数据交给View进行渲染，但是在实际的项目中，又是允许Model和View直接通信的。然后就出现了这样的结果：
+MVC框架的数据流很理想，请求先到Controller, 由Controller调用Model中的数据交给View进行渲染，但是在实际的项目中，又是允许Model和View直接通信的。然后就出现了这���的结果：
 
 ![image-20190420012010718](./images/defect-of-mvc.png)
 
